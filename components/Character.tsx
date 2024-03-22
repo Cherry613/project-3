@@ -3,7 +3,7 @@ import { FunctionComponent } from "preact";
 type CharacterProps = { 
     name: string,
     image: string,
-    status: string,
+    status: string    , //hola
 }
 
 const Character: FunctionComponent<CharacterProps> = (props) =>{  
